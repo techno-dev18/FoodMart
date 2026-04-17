@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Food Store</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">FoodMart</h1>
+      <nav class="nav">
+        <a href="#" class="nav-pill active">Home</a>
+        <a href="#" class="nav-pill">Menu</a>
+        <a href="#" class="nav-pill">Cart</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Top Filters -->
+      <section id="filters">
+        <h2>Explore Our Food Items</h2>
+
+        <div>
+          <!-- Replacing Gender with Food Type -->
+          <select id="food-type-selection">
+            <option value="">-- Food Type --</option>
+            <option value="cuisine">Cuisine</option>
+            <option value="beverage">Beverage</option>
+            <option value="dish">Dish</option>
+            <option value="dessert">Dessert</option>
+          </select>
+        </div>
+
+        <input type="text" id="searchInput" placeholder="Search food..." />
+      </section>
+
+      <div class="products-filters">
+        <!-- Sidebar Filters -->
+        <section id="filters-tab">
+          <h2 class="filter-head">Filters</h2>
+
+          <h3 class="filter-head">Food Type</h3>
+
+          <label>
+            <input type="radio" name="foodType" value="cuisine" /> Cuisine
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="foodType" value="beverage" /> Beverage
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="foodType" value="dish" /> Dish
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="foodType" value="dessert" /> Dessert
+          </label>
+
+          <br /><br />
+
+          <h3 class="filter-head">Rating ⭐</h3>
+
+          <input
+            id="rating-input"
+            type="range"
+            min="0"
+            max="5"
+            step="0.5"
+            value="0"
+          />
+
+          <p>Greater than: <span id="rating-value">0</span></p>
+
+          <h3 class="filter-head">Category</h3>
+
+          <label>
+            <input type="checkbox" class="category-checkbox" value="Indian" />
+            Indian
+          </label>
+          <br />
+
+          <label>
+            <input type="checkbox" class="category-checkbox" value="Chinese" />
+            Chinese
+          </label>
+          <br />
+
+          <label>
+            <input type="checkbox" class="category-checkbox" value="Italian" />
+            Italian
+          </label>
+          <br />
+
+          <label>
+            <input
+              type="checkbox"
+              class="category-checkbox"
+              value="Fast Food"
+            />
+            Fast Food
+          </label>
+          <br />
+
+          <label>
+            <input type="checkbox" class="category-checkbox" value="Healthy" />
+            Healthy
+          </label>
+          <br />
+
+          <label>
+            <input type="checkbox" class="category-checkbox" value="Drinks" />
+            Drinks
+          </label>
+
+          <br /><br />
+
+          <button id="clear-btn" class="product-button">Clear</button>
+        </section>
+        <section id="productsDisplay"></section>
+      </div>
+    </main>
+  </body>
+</html>

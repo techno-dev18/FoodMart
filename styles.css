@@ -1,0 +1,133 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+:root {
+  --primary--color: #1f2937;
+  --nav-pill-color: #374151;
+}
+/* Header */
+.header {
+  background-color: var(--primary--color);
+  padding: 15px 2rem;
+}
+
+.logo {
+  color: white;
+}
+/* Nav container */
+.nav {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+
+/* Nav Pills */
+.nav-pill {
+  text-decoration: none;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 4px;
+  background-color: var(--nav-pill-color);
+}
+
+/* Hover effect */
+.nav-pill:hover {
+  opacity: 0.5;
+}
+
+/* Active pill */
+.nav-pill.active {
+  background-color: #3b82f6;
+}
+
+/* Products dataisplay */
+#productsDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 85%;
+}
+.product-card {
+  width: 250px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 6px;
+}
+
+.discount {
+  color: green;
+  font-weight: bold;
+  margin-left: 6px;
+}
+main {
+  margin: 3rem;
+}
+.card-cart-button-strip,
+.card-rating-discount-strip {
+  display: flex;
+  justify-content: space-between;
+}
+.product-button {
+  text-decoration: none;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 4px;
+  background-color: var(--nav-pill-color);
+}
+
+/* Hover effect */
+.product-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+#filters {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+  color: var(--primary--color);
+}
+#gender-selection {
+  border: 1px solid var(--primary--color);
+  font-size: large;
+  padding: 4px;
+}
+.products-filters {
+  display: flex;
+}
+#filters-tab {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+.filter-head {
+  color: var(--primary--color);
+}
+#rating-input {
+  width: 150px;
+}
+#clear-btn {
+  width: 100px;
+}
+#searchInput {
+  padding: 5px;
+}
