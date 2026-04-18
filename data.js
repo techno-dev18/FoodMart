@@ -13,7 +13,7 @@ const products = [
   },
   {
     id: 2,
-    imgUrl: 'https://source.unsplash.com/300x300/?chicken-biryani',
+    imgUrl: '',
     name: 'Chicken Biryani',
     description: 'Aromatic rice with spices.',
     rating: 4.8,
@@ -49,7 +49,7 @@ const products = [
   },
   {
     id: 5,
-    imgUrl: 'https://images.unsplash.com/photo-1600628422019-3c0c9a1c2b94?auto=format&fit=crop&w=500&q=80',
+    imgUrl: '',
     name: 'Butter Naan',
     description: 'Soft Indian bread.',
     rating: 3.7,
@@ -123,7 +123,7 @@ const products = [
 
   {
     id: 11,
-    imgUrl: 'https://images.unsplash.com/photo-1594007654729-407eedc4fe24',
+    imgUrl: '',
     name: 'Margherita Pizza',
     description: 'Classic pizza.',
     rating: 4.4,
@@ -135,7 +135,7 @@ const products = [
   },
   {
     id: 12,
-    imgUrl: 'https://source.unsplash.com/300x300/?white-sauce-pasta',
+    imgUrl: '',
     name: 'White Sauce Pasta',
     description: 'Creamy pasta.',
     rating: 4.2,
@@ -147,7 +147,7 @@ const products = [
   },
   {
     id: 13,
-    imgUrl: 'https://source.unsplash.com/300x300/?lasagna',
+    imgUrl: 'https://images.unsplash.com/photo-1619895092538-128341789043?auto=format&fit=crop&w=600&q=80',
     name: 'Lasagna',
     description: 'Layered pasta dish.',
     rating: 4.7,
@@ -159,7 +159,7 @@ const products = [
   },
   {
     id: 14,
-    imgUrl: 'https://source.unsplash.com/300x300/?risotto',
+    imgUrl: '',
     name: 'Risotto',
     description: 'Creamy rice dish.',
     rating: 3.9,
@@ -171,7 +171,7 @@ const products = [
   },
   {
     id: 15,
-    imgUrl: 'https://source.unsplash.com/300x300/?bruschetta',
+    imgUrl: '',
     name: 'Bruschetta',
     description: 'Toasted bread snack.',
     rating: 3.6,
@@ -196,7 +196,7 @@ const products = [
   },
   {
     id: 17,
-    imgUrl: 'https://source.unsplash.com/300x300/?fries',
+    imgUrl: 'https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=600&q=80',
     name: 'French Fries',
     description: 'Crispy fries.',
     rating: 4.1,
@@ -208,7 +208,7 @@ const products = [
   },
   {
     id: 18,
-    imgUrl: 'https://source.unsplash.com/300x300/?hotdog',
+    imgUrl: '',
     name: 'Hot Dog',
     description: 'Grilled sausage roll.',
     rating: 3.7,
@@ -220,7 +220,7 @@ const products = [
   },
   {
     id: 19,
-    imgUrl: 'https://source.unsplash.com/300x300/?sandwich',
+    imgUrl: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80',
     name: 'Grilled Sandwich',
     description: 'Toasted sandwich.',
     rating: 4.2,
@@ -232,7 +232,7 @@ const products = [
   },
   {
     id: 20,
-    imgUrl: 'https://source.unsplash.com/300x300/?donut',
+    imgUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80',
     name: 'Donuts',
     description: 'Sweet donuts.',
     rating: 4.5,
@@ -245,7 +245,7 @@ const products = [
 
   {
     id: 21,
-    imgUrl: 'https://source.unsplash.com/300x300/?salad',
+    imgUrl: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80',
     name: 'Green Salad',
     description: 'Fresh vegetables.',
     rating: 4.3,
@@ -257,7 +257,7 @@ const products = [
   },
   {
     id: 22,
-    imgUrl: 'https://source.unsplash.com/300x300/?smoothie',
+    imgUrl: '',
     name: 'Fruit Smoothie',
     description: 'Healthy drink.',
     rating: 4.6,
@@ -293,7 +293,7 @@ const products = [
   },
   {
     id: 25,
-    imgUrl: 'https://images.unsplash.com/photo-1605475128023-ec2c8c8d6d47',
+    imgUrl: '',
     name: 'Quinoa Bowl',
     description: 'Protein rich meal.',
     rating: 3.9,
@@ -342,7 +342,7 @@ const products = [
   },
   {
     id: 29,
-    imgUrl: '',
+    imgUrl: 'https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=600&q=80',
     name: 'Milkshake',
     description: 'Creamy shake.',
     rating: 4.4,
