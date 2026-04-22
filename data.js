@@ -13,7 +13,7 @@ const products = [
   },
   {
     id: 2,
-    imgUrl: '',
+    imgUrl: 'https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&w=600&q=80',
     name: 'Chicken Biryani',
     description: 'Aromatic rice with spices.',
     rating: 4.8,
@@ -74,7 +74,7 @@ const products = [
   },
   {
     id: 7,
-    imgUrl: 'https://images.unsplash.com/photo-1604908177522-3a1dbb6fd8f3?auto=format&fit=crop&w=500&q=80',
+    imgUrl: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?fm=jpg&amp;q=60&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Fried Rice',
     description: 'Rice with veggies.',
     rating: 4.0,
@@ -86,7 +86,7 @@ const products = [
   },
   {
     id: 8,
-    imgUrl: 'https://images.unsplash.com/photo-1604908177225-6e9d9c37b04b',
+    imgUrl: 'https://images.unsplash.com/photo-1623253083987-26681ce4a992?fm=jpg&amp;q=60&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Spring Rolls',
     description: 'Crispy rolls.',
     rating: 3.8,
@@ -98,7 +98,7 @@ const products = [
   },
   {
     id: 9,
-    imgUrl: 'https://images.unsplash.com/photo-1605478038658-2f0c0d7c3b12',
+    imgUrl: 'https://media.istockphoto.com/id/1208081969/photo/veg-manchurian-very-popular-chinese-snack-popular-in-india.jpg?s=1024x1024&amp;w=is&amp;k=20&amp;c=8dwyKP5KJ1-dmWYMCYD5pQGXKbkRBPzkO9xDkrQ_ksU=',
     name: 'Manchurian',
     description: 'Spicy gravy balls.',
     rating: 4.3,
@@ -159,7 +159,7 @@ const products = [
   },
   {
     id: 14,
-    imgUrl: '',
+    imgUrl: 'https://images.unsplash.com/photo-1595908129746-57ca1a63dd4d?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Risotto',
     description: 'Creamy rice dish.',
     rating: 3.9,
@@ -171,7 +171,7 @@ const products = [
   },
   {
     id: 15,
-    imgUrl: '',
+    imgUrl: 'https://images.unsplash.com/photo-1572695157360-1153aaad020b?fm=jpg&amp;q=60&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Bruschetta',
     description: 'Toasted bread snack.',
     rating: 3.6,
@@ -208,7 +208,7 @@ const products = [
   },
   {
     id: 18,
-    imgUrl: '',
+    imgUrl: 'https://plus.unsplash.com/premium_photo-1731060034920-6c10381d7731?fm=jpg&amp;q=60&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Hot Dog',
     description: 'Grilled sausage roll.',
     rating: 3.7,
@@ -257,7 +257,7 @@ const products = [
   },
   {
     id: 22,
-    imgUrl: '',
+    imgUrl: 'https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=600&q=80',
     name: 'Fruit Smoothie',
     description: 'Healthy drink.',
     rating: 4.6,
@@ -293,7 +293,7 @@ const products = [
   },
   {
     id: 25,
-    imgUrl: '',
+    imgUrl: 'https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?fm=jpg&amp;q=60&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Quinoa Bowl',
     description: 'Protein rich meal.',
     rating: 3.9,
