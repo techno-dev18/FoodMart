@@ -9,7 +9,6 @@ const searchInput = document.getElementById('searchInput');
 const categoryCheckboxes = document.querySelectorAll('.category-checkbox');
 const clearbtn = document.getElementById('clear-btn');
 
-// Display Products
 const displayProducts = (products) => {
   productDiplay.innerHTML = ``;
 
@@ -42,7 +41,6 @@ const displayProducts = (products) => {
 
 displayProducts(products);
 
-// Dropdown Filter (Food Type)
 foodTypeSelection.addEventListener('change', (e) => {
   const filter = e.target.value;
 
@@ -56,7 +54,6 @@ foodTypeSelection.addEventListener('change', (e) => {
   displayProducts(filteredProducts);
 });
 
-// Radio Filter (Food Type)
 foodTypeRadios.forEach((radio) => {
   radio.addEventListener('change', (e) => {
     const selectedType = e.target.value;
@@ -67,7 +64,6 @@ foodTypeRadios.forEach((radio) => {
   });
 });
 
-// Rating Filter
 ratingInput.addEventListener('input', (e) => {
   const rating = Number(e.target.value);
   ratingValue.innerText = rating;
@@ -77,7 +73,6 @@ ratingInput.addEventListener('input', (e) => {
   displayProducts(filteredProducts);
 });
 
-// Search Filter
 searchInput.addEventListener('input', (e) => {
   const searchText = e.target.value.toLowerCase();
 
@@ -96,7 +91,6 @@ searchInput.addEventListener('input', (e) => {
   displayProducts(filteredProducts);
 });
 
-// Category Filter
 categoryCheckboxes.forEach((checkbox) => {
   checkbox.addEventListener('change', () => {
     const selectCategories = [];
@@ -120,7 +114,6 @@ categoryCheckboxes.forEach((checkbox) => {
   });
 });
 
-// Clear Button
 clearbtn.addEventListener('click', () => {
   foodTypeSelection.value = '';
   foodTypeRadios.forEach((radio) => (radio.checked = false));

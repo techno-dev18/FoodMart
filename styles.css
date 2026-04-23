@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
   --primary--color: rgb(168, 14, 14);
   --nav-pill-color: #374151;
 }
-/* Header */
+
 .header {
   background-color: var(--primary--color);
   padding: 15px 2rem;
@@ -18,14 +18,14 @@
 .logo {
   color: white;
 }
-/* Nav container */
+
 .nav {
   display: flex;
   justify-content: end;
   gap: 15px;
 }
 
-/* Nav Pills */
+
 .nav-pill {
   text-decoration: none;
   color: white;
@@ -34,17 +34,17 @@
   background-color: var(--nav-pill-color);
 }
 
-/* Hover effect */
+
 .nav-pill:hover {
   opacity: 0.5;
 }
 
-/* Active pill */
+
 .nav-pill.active {
   background-color: #3b82f6;
 }
 
-/* Products dataisplay */
+
 #productsDisplay {
   display: flex;
   flex-wrap: wrap;
@@ -95,7 +95,7 @@ main {
   background-color: var(--nav-pill-color);
 }
 
-/* Hover effect */
+
 .product-button:hover {
   opacity: 0.8;
   cursor: pointer;
