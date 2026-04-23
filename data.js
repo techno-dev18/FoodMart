@@ -49,7 +49,7 @@ const products = [
   },
   {
     id: 5,
-    imgUrl: '',
+    imgUrl: 'https://images.unsplash.com/photo-1756821753151-0879e7862e50?fm=jpg&amp;q=60&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Butter Naan',
     description: 'Soft Indian bread.',
     rating: 3.7,
@@ -269,7 +269,7 @@ const products = [
   },
   {
     id: 23,
-    imgUrl: 'https://images.unsplash.com/photo-1517673400267-0251440c45dc',
+    imgUrl: 'https://images.unsplash.com/photo-1501432781167-c0ccfd492297?fm=jpg&amp;q=60&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Oats Bowl',
     description: 'Nutritious oats.',
     rating: 3.8,
@@ -306,7 +306,7 @@ const products = [
 
   {
     id: 26,
-    imgUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085',
+    imgUrl: 'https://images.unsplash.com/photo-1625242662167-9ba73d268139?fm=jpg&amp;q=60&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Cold Coffee',
     description: 'Chilled coffee.',
     rating: 4.6,
@@ -342,7 +342,7 @@ const products = [
   },
   {
     id: 29,
-    imgUrl: 'https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=600&q=80',
+    imgUrl: 'https://images.unsplash.com/photo-1568901839119-631418a3910d?fm=jpg&amp;q=60&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Milkshake',
     description: 'Creamy shake.',
     rating: 4.4,
@@ -354,12 +354,12 @@ const products = [
   },
   {
     id: 30,
-    imgUrl: 'https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2',
+    imgUrl: 'https://images.unsplash.com/photo-1625033405953-f20401c7d848?w=100&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFzYWxhJTIwY2hhaXxlbnwwfHwwfHx8MA%3D%3D',
     name: 'Masala Chai',
     description: 'Indian tea.',
     rating: 4.8,
-    price: 79,
-    discountedPrice: 59,
+    price: 49,
+    discountedPrice: 25,
     discountPercentage: 25,
     type: 'beverage',
     category: 'Drinks',
