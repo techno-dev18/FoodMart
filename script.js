@@ -1,6 +1,6 @@
 import products from './data.js';
 
-const productDiplay = document.getElementById('productsDisplay');
+const productDiplay = document.getElementById('menuDisplay');
 const foodTypeSelection = document.getElementById('food-type-selection');
 const foodTypeRadios = document.querySelectorAll('input[name="foodType"]');
 const ratingInput = document.getElementById('rating-input');

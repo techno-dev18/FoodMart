@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 :root {
   --primary--color: rgb(168, 14, 14);
@@ -12,17 +12,20 @@
 
 .header {
   background-color: var(--primary--color);
-  padding: 15px 2rem;
+  padding: 10px 3rem;
 }
 
 .logo {
   color: white;
+  text-shadow: 0 0 5px aqua, 
+               0 0 10px aqua, 
+               0 0 15px aqua;
 }
 
 .nav {
   display: flex;
   justify-content: end;
-  gap: 15px;
+  gap: 20px;
 }
 
 
@@ -36,7 +39,7 @@
 
 
 .nav-pill:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 
@@ -44,12 +47,17 @@
   background-color: #3bf68c;
 }
 
-
-#productsDisplay {
+.tagline{
+  color: rgb(255, 0, 208);
+  text-align: center;
+  font-weight:bolder;
+  
+}
+#menuDisplay {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  width: 85%;
+  gap: 10px;
+  width: 90%;
 }
 .product-card {
   width: 250px;
@@ -75,7 +83,7 @@
 }
 
 .discount {
-  color: green;
+  color: rgb(0, 13, 128);
   font-weight: bold;
   margin-left: 6px;
 }
@@ -106,11 +114,7 @@ main {
   margin-bottom: 2rem;
   color: var(--primary--color);
 }
-#gender-selection {
-  border: 1px solid var(--primary--color);
-  font-size: large;
-  padding: 4px;
-}
+
 .products-filters {
   display: flex;
 }
